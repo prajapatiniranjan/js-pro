@@ -1,0 +1,124 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+}
+
+.login-card h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.index-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.index-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.index-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .login-card {
+        padding: 15px;
+        width: 85%;
+    }
+
+    .login-card h1 {
+        font-size: 22px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .index-link a {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 425px) {
+    .login-card {
+        padding: 10px;
+        width: 90%;
+    }
+
+    .login-card h1 {
+        font-size: 20px;
+    }
+
+    input[type="email"],
+    input[type="password"],
+    button[type="submit"] {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .index-link a {
+        font-size: 12px;
+    }
+}

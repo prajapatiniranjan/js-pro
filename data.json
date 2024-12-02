@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": "3ad1",
+      "brand": "Adidas",
+      "product": "Shoe",
+      "price": "88"
+    },
+    {
+      "id": "3017",
+      "brand": "Adidas",
+      "product": "show",
+      "price": "889"
+    },
+    {
+      "id": "70e2",
+      "brand": "Adidas",
+      "product": "show",
+      "price": "88"
+    },
+    {
+      "id": "8a88",
+      "brand": "Adidas",
+      "product": "Shoe",
+      "price": "767676"
+    }
+  ]
+}
